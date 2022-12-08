@@ -49,8 +49,9 @@
       })(document, window.posthog || []);
       posthog.init("phc_XSXtYDEBT0vjwqYHKFr57sdMq7cbIeatCXCfN8Tkn09", { api_host: "https://app.posthog.com" });
     </script>
+    <script src="https://cdn.lr-in-prod.com/LogRocket.min.js" crossorigin="anonymous"></script>
     <script>
-      console.log("token", process.env, process.env.POSTHOG_API_TOKEN);
+      window.LogRocket && window.LogRocket.init("xcbiah/test-repo");
     </script>
   </head>
   <body>
