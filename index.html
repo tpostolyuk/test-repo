@@ -49,6 +49,9 @@
       })(document, window.posthog || []);
       posthog.init("phc_XSXtYDEBT0vjwqYHKFr57sdMq7cbIeatCXCfN8Tkn09", { api_host: "https://app.posthog.com" });
     </script>
+    <script>
+      console.log("token", process.env, process.env.POSTHOG_API_TOKEN);
+    </script>
   </head>
   <body>
     <div>
